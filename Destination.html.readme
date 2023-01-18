@@ -73,19 +73,6 @@
          <img src="images/destination-6.jpg" alt="">
          <h3><span>paris</span></h3>
       </div>
-      <div class="box" data-aos="zoom-in">
-         <img src="images/destination-7.jpg" alt="">
-         <h3><span>barcelona</span></h3>
-      </div>
-      <div class="box" data-aos="zoom-in">
-         <img src="images/destination-8.jpg" alt="">
-         <h3><span>sydney</span></h3>
-      </div>
-      <div class="box" data-aos="zoom-in">
-         <img src="images/destination-9.jpg" alt="">
-         <h3><span>tokyo</span></h3>
-      </div>
-
    </section>
 
 </div>
