@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Contact</title>
+
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   
+<!-- header section starts  -->
+
+<header class="header" data-aos="fade-down">
+
+   <section class="flex">
+
+      <a href="home.html" class="logo">URB TravelAgency</a>
+
+      <nav class="navbar">
+         <a href="home.html">home</a>
+         <a href="about.html">about</a>
+         <a href="tours.html">tours</a>
+         <a href="destinations.html">destinations</a>
+         <a href="contact.html">contact</a>
+      </nav>
+
+      <div id="menu-btn" class="fas fa-bars"></div>
+
+   </section>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- contact section starts  -->
+
+<div class="container contact">
+
+   <h1 class="heading" data-aos="zoom-out">contact us</h1>
+
+   <section>
+
+      <div class="row">
+
+         <iframe class="map" src="https://www.google.com/maps/place/Military+Area,+Swayambhu+Military+Sadak,+Kathmandu+44600/@27.7138317,85.2873135,15z/data=!4m5!3m4!1s0x39eb1892d7946af9:0x3f18ba36b05dc7e9!8m2!3d27.7187462!4d85.2926159" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" data-aos="flip-left"></iframe>
+
+         <form action="" method="post" data-aos="flip-right">
+            <h3>get in touch</h3>
+            <input type="text" name="name" required maxlength="50" placeholder="enter your name" class="box">
+            <input type="email" name="email" required maxlength="50" placeholder="enter your email" class="box">
+            <input type="number" name="number" required maxlength="10" min="0" max="9999999999" placeholder="enter your number" class="box">
+            <textarea name="message" class="box" required maxlength="1000" cols="30" rows="10"></textarea>
+            <input type="submit" value="send message" name="send" class="btn">
+         </form>
+
+      </div>
+
+      <div class="grid">
+
+         <div class="box" data-aos="fade-up">
+            <i class="fas fa-phone"></i>
+            <h3>phone number</h3>
+            <a href="Phone no.:9840646002">+977-9840646002</a>
+            <a href="phone no.:9840646002">+977-9840646002</a>
+         </div>
+
+         <div class="box" data-aos="fade-up">
+            <i class="fas fa-envelope"></i>
+            <h3>email address</h3>
+            <a href="mailto:utsavrb13@gmail.com">utsavrb13@gmail.come</a>
+            <a href="mailto:utsavrb16@gmail.com">utsavrb16@gmail.come</a>
+         </div>
+
+         <div class="box" data-aos="fade-up">
+            <h3>office address</h3>
+            <a href="#">Kathmandu,Nepal,Sitapila,40213</a>
+         </div>
+
+      </div>
+
+      <div class="credit">
+         &copy; copyright @ 2023 by <span>mr. web designer</span> | all rights reserved!
+      </div>
+
+   </section>
+
+</div>
+
+<!-- contact section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
