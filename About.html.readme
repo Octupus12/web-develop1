@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>About</title>
+
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   
+<!-- header section starts  -->
+
+<header class="header" data-aos="fade-down">
+
+   <section class="flex">
+
+      <a href="home.html" class="logo">URB TravelAgency</a>
+
+      <nav class="navbar">
+         <a href="home.html">home</a>
+         <a href="about.html">about</a>
+         <a href="tours.html">tours</a>
+         <a href="destinations.html">destinations</a>
+         <a href="contact.html">contact</a>
+      </nav>
+
+      <div id="menu-btn" class="fas fa-bars"></div>
+
+   </section>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- about section starts  -->
+
+<div class="container about">
+
+   <h1 class="heading" data-aos="zoom-out">about us</h1>
+
+   <section>
+
+      <div class="details">
+         <div class="box" data-aos="zoom-in">
+            <h3>why choose us?</h3>
+            <p>The clients wants to travel from one place to another places and our main motive is to make budget friendly envionment
+               during theie entire year they just want to relax and have fun and our teams organize the cliebts needs and demands. 
+            </p>
+            <a href="contact.html" class="btn">contact us</a>
+         </div>
+      </div>
+
+      <div class="grid">
+         
+         <div class="box" data-aos="fade-up">
+            <img src="" alt="">
+            <h3>easy bookings</h3>
+            <p>Simply clients can send enquiry to our cutomer care service they checks
+            and inform clients whether there is availability or not or they can visit 
+            another place they want to travel on the same budget plans. And booking the 
+            tickets through online medium and local agents which helps to provide services</p>
+         </div>
+
+         <div class="box" data-aos="fade-up">
+            <img src="images/about-img-2.svg" alt="">
+            <h3>travel world</h3>
+            <p>International tourism is tourism that crosses national borders.
+               Globalisation has made tourism a popular global leisure activity.
+               The World Tourism Organization defines tourists as people "traveling
+               to and staying in places outside their usual environment for not more 
+               than one consecutive year for leisure, business and other purposes".</p>
+         </div>
+
+         <div class="box" data-aos="fade-up">
+            <img src="images/about-img-3.svg" alt="">
+            <h3>enjoy tours</h3>
+            <p>We all wishes to have an excllent experience and hopeful you might like it.</p>
+         </div>
+
+      </div>
+
+   </section>
+
+</div>
+
+<!-- about section ends -->
+
+<!-- reviews section starts  -->
+
+<div class="container reviews">
+
+   <h1 class="heading" data-aos="zoom-out">client's reviews</h1>
+
+   <section class="grid">
+
+      <div class="box" data-aos="zoom-in">
+         <img src="images/pic-1.png" alt="">
+         <h3>john deo</h3>
+         <p>This was my first time traveling from one place to another
+            place according to experience i was over-joyed by the moments
+            that i have spend with my family while taveling from Canada to UK.</p>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+         </div>
+      </div>
+
+      <div class="box" data-aos="zoom-in">
+         <img src="images/pic-2.png" alt="">
+         <h3>Maria</h3>
+         <p>At the starting of the tour i have thought there can some issues 
+            the moment that i have spend during the international traveling there
+            were some issues but more than issue their were lots of fun travelling
+            different kids of places.</p>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+         </div>
+      </div>
+
+      <div class="box" data-aos="zoom-in">
+         <img src="images/pic-3.png" alt="">
+         <h3>Alex</h3>
+         <p>It was the best time experience though there were some issues related
+            to this kinds of long tour planning health issues and manymre.However,
+            during time new place we can learn new religions, caste and languages</p>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+         </div>
+      </div>
+
+      </section>
+
+</div>
+
+<!-- reviews section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
